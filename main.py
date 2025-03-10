@@ -8,7 +8,7 @@ from io import StringIO
 app = FastAPI()
 
 # GCS bucket and file name
-BUCKET_NAME = "samplebucketvrs"
+BUCKET_NAME = "intelli-ana-bucket"
 CSV_FILE_NAME = "detailed_mismatches.csv"
 
 # Initialize the Google Cloud Storage client
