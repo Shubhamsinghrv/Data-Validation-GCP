@@ -60,8 +60,8 @@ Concurrent.Futures (for parallel processing)
 
 ## 1️⃣ Clone the Repository
 
-git clone https://github.com/yourusername/data-validation.git
-cd data-validation
+git clone https://github.com/shubhamsinghrv/Data-Validation-System.git
+cd Data-Validation-System
 
 ## 2️⃣ Install Dependencies
 
@@ -75,7 +75,7 @@ python data_validation.py
 
 Push the project to GitHub.
 
-Deploy the backend on Cloud Run.
+Deploy the backend on Cloud Run Container.
 
 Configure Pub/Sub to trigger Cloud Run.
 
