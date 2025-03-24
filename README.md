@@ -56,7 +56,7 @@ Matplotlib (for visualization)
 
 Concurrent.Futures (for parallel processing)
 
-## 📦 Installation & Setup
+# 📦 Installation & Setup
 
 ## 1️⃣ Clone the Repository
 
