@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-google-cloud-storage
-google-cloud-bigquery
-pandas
-numpy
