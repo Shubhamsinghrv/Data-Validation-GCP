@@ -16,7 +16,7 @@ Data-Validation-GCP/
 ├── requirements.txt          # List of dependencies
 ```
 
-🔄 Workflow
+## 🔄 Workflow
 
 A source file and target file are uploaded to a Google Cloud Storage (GCS) bucket.
 
@@ -28,7 +28,7 @@ The Cloud Run container runs the data validation script.
 
 Validation results and detailed mismatches are stored back in the GCS bucket.
 
-✨ Features
+## ✨ Features
 
 Automated Data Validation: Compares source and target data efficiently.
 
@@ -42,7 +42,7 @@ Cloud-Native: Fully integrated with GCP services.
 
 Logging & Reporting: Generates logs and CSV reports for analysis.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Google Cloud Platform (GCP) (GCS, Pub/Sub, Cloud Run)
 
@@ -56,22 +56,22 @@ Matplotlib (for visualization)
 
 Concurrent.Futures (for parallel processing)
 
-📦 Installation & Setup
+## 📦 Installation & Setup
 
-1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 
 git clone https://github.com/yourusername/data-validation.git
 cd data-validation
 
-2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-3️⃣ Run the Validation Script Locally
+## 3️⃣ Run the Validation Script Locally
 
 python data_validation.py
 
-☁️ Deployment on GCP
+## ☁️ Deployment on GCP
 
 Push the project to GitHub.
 
@@ -81,7 +81,7 @@ Configure Pub/Sub to trigger Cloud Run.
 
 Upload test files to the GCS bucket to trigger validation.
 
-📊 Output Reports
+## 📊 Output Reports
 
 Summary Report (data_quality_summary.csv)
 
@@ -89,7 +89,7 @@ Detailed Mismatches (detailed_mismatches.csv)
 
 Mismatch Visualization (Graphical insights into discrepancies)
 
-📜 License
+## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
 
